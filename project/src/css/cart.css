@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    background-color: #F4F6FA;
+    position: relative;
+    height: 969px;
+    box-sizing: border-box;
+    padding-bottom: 246px;
+}
+
+.cart-header {
+    width: 1903px;
+    height: 81px;
+    background: white;
+}
+
+.cart-header-inner {
+    width: 1240px;
+    height: 100%;
+    margin: 0 auto;
+    /* background: pink; */
+}
+
+.cart-logo {
+    float: left;
+    margin-top: 32px;
+    width: 110px;
+    height: 20px;
+    background: url(../img/base.png) no-repeat -2px -4px;
+}
+
+.cart-header-bread {
+    float: left;
+    margin-left: 70px;
+    line-height: 80px;
+}
+
+.cart-header-bread-block,.cart-header-bread-block-last {
+    float: left;
+    font-size: 14px;
+    color: #999;
+    line-height: 80px;
+}
+
+.cart-header-bread-block::after {
+    content: '>';
+    margin: 0 10px;
+    color: #999;
+}
+/******************** 头部样式 *********************/
+
+.cart-content {
+    width: 100%;
+    height: 500px;
+    background-color: #F4F6FA
+}
+
+.cart-main {
+    width: 1240px;
+    height: 400px;
+    margin: 10px auto;
+    background: white;
+}
+/******************** 购物车样式 *********************/
+
+.footer {
+    width: 100%;
+    height: 246px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: white;
+}

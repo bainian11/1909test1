@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    height: auto;
+    padding-top: 28px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.logo {
+    float: left;
+    height: 20px;
+    width: 110px;
+    overflow: hidden;
+    display: block;
+}
+
+.logo .i-logo{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url(../img/base.png) -2px -4px no-repeat;
+}
+/* 头部样式 */
+
+.main {
+    width: 1903px;
+    height: 750px;
+    background: #EDF9FB url(../img/re-bg.png) no-repeat center;
+}
+
+.bg-box {
+    position: relative;
+    width: 1240px;
+    height: 750px;
+    margin: 0 auto;
+}
+
+.re-box {
+    width: 368px;
+    height: 517px;
+    background: white;
+    position: absolute;
+    top: 16%;
+    right: 85px;
+}
+
+.title {
+    display: block;
+    color: #387aff;
+    font-size: 18px;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.re-box label{
+    display: inline-block;
+    width: 60px;
+}
+
+.main .bg-box .re-box p {
+    height: 50px;
+    text-align: center;
+    color: #387aff;
+}
+
+.re-box button {
+    width: 298px;
+    height: 46px;
+    background-color: #387aff;
+    color: white;
+    margin-top: 30px;
+}
+
+.re-box a{
+    float: left;
+    display: block;
+    margin-top: 50px;
+    margin-left: 40px;
+}
